@@ -1,10 +1,18 @@
 import { Hero } from "../sections";
+import { AgencySelection} from "../sections"
 
 const heroProps = {
   image: { src: "/img/heroimg.png", alt: "", width: 1000, height: 1680 },
   title: "Agency procurement, outsourced.",
   description: "Start the process here",
   ctaText: "Start",
+};
+
+const agencyProps = {
+  image: { src: "/img/video.png", alt:"", width: 1000, height: 1680},
+  image2: {src: "/img/background.png", alt:"", width: 1000, height: 1680},
+  title: "Managed agency selection",
+  description:"Strenghten your onboarding process"
 };
 
 export default function Home() {
@@ -20,6 +28,7 @@ export default function Home() {
       </head>
       <div>
         <Hero {...heroProps} />
+        <AgencySelection {...agencyProps}/>
         {/** Other sections */}
       </div>
     </>
