@@ -40,7 +40,11 @@ export const AgencySelection = ({ image, title, description, ...props }) => {
             height={image.height}
           />
         </StyledImageContainer>
-        <Card {...card1Props}></Card>
+        <StyledCardContainer>
+          <Card {...card1Props}></Card>
+          <Card {...card1Props}></Card>
+          <Card {...card1Props}></Card>
+        </StyledCardContainer>
       </StyledContainerContainer>
     </StyledContainer>
   );

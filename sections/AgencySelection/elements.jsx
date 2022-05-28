@@ -50,12 +50,6 @@ export const StyledImageContainer = styled(({ ...props }) => (
   height: 100%;
 `;
 
-export const StyledCardContainer = styled((props) => (
-  <StyledCardContainer {...props} />
-))`
-  text-align: center;
-`;
-
 export const StyledContainerContainer = styled(({ ...props }) => (
   <div {...props} />
 ))`
@@ -65,4 +59,17 @@ export const StyledContainerContainer = styled(({ ...props }) => (
   max-height: 100%;
   margin-left: 30rem;
   margin-top: 3rem;
+`;
+
+export const StyledCardContainer = styled(({ ...props }) => <div {...props} />)`
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  background-image: url(${backgroundimg.src});
+  background-position: 25% 80%;
+  background-size: 1000px, 1000px;
+  background-repeat: no-repeat;
 `;
