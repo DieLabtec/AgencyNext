@@ -36,6 +36,9 @@ export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
   width: 100%;
   font-family: sans-serif;
   text-align: center;
+  @media screen and (max-width: 650px) {
+    margin-left: 30%;
+  }
 `;
 
 export const StyledDescription = styled((props) => (
@@ -44,6 +47,9 @@ export const StyledDescription = styled((props) => (
   text-align: center;
   margin: 0;
   width: 100%;
+  @media screen and (max-width: 650px) {
+    margin-left: 30%;
+  }
 `;
 
 export const StyledImageContainer = styled(({ ...props }) => (
@@ -57,7 +63,7 @@ export const StyledImageContainer = styled(({ ...props }) => (
     margin-right: 15px;
   }
   @media screen and (max-width: 650px) {
-    margin-right: 10px;
+    margin-right: 10%;
   }
 `;
 
@@ -75,7 +81,7 @@ export const StyledContainerContainer = styled(({ ...props }) => (
     margin-left: 27%;
   }
   @media screen and (max-width: 650px) {
-    margin-left: 35%;
+    margin-left: 39%;
   }
 `;
 
