@@ -56,6 +56,9 @@ export const StyledImageContainer = styled(({ ...props }) => (
   @media screen and (max-width: 1023) {
     margin-right: 15px;
   }
+  @media screen and (max-width: 650px) {
+    margin-right: 10px;
+  }
 `;
 
 export const StyledContainerContainer = styled(({ ...props }) => (
@@ -71,6 +74,9 @@ export const StyledContainerContainer = styled(({ ...props }) => (
     flex-direction: column;
     margin-left: 27%;
   }
+  @media screen and (max-width: 650px) {
+    margin-left: 15%;
+  }
 `;
 
 export const StyledCardContainer = styled(({ ...props }) => <div {...props} />)`
@@ -84,5 +90,8 @@ export const StyledCardContainer = styled(({ ...props }) => <div {...props} />)`
   margin-top: 0;
   @media screen and (max-width: 1023px) {
     margin-right: 50%;
+  }
+  @media screen and (max-width: 650px) {
+    width: 65%;
   }
 `;

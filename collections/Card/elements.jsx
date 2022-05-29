@@ -18,6 +18,9 @@ export const StyledContainer = styled(({ height, ...props }) => (
   padding: 0 0.5rem;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 650px) {
+    width: 400px;
+  }
 `;
 
 export const StyledSectionTinyHeading = styled((props) => (
