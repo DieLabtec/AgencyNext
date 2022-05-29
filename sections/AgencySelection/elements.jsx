@@ -36,9 +36,6 @@ export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
   width: 100%;
   font-family: sans-serif;
   text-align: center;
-  @media screen and (max-width: 650px) {
-    margin-left: 30%;
-  }
 `;
 
 export const StyledDescription = styled((props) => (
@@ -47,21 +44,20 @@ export const StyledDescription = styled((props) => (
   text-align: center;
   margin: 0;
   width: 100%;
-  @media screen and (max-width: 650px) {
-    margin-left: 30%;
-  }
 `;
 
 export const StyledImageContainer = styled(({ ...props }) => (
   <div {...props} />
 ))`
-  width: 352px;
-  height: 592px;
   min-width: 352px;
   min-height: 592px;
+  width: 352;
+  heights: 592;
   @media screen and (max-width: 1023) {
+    margin-left: 15%;
   }
   @media screen and (max-width: 650px) {
+    margin-right: 10px;
   }
 `;
 
@@ -72,13 +68,14 @@ export const StyledContainerContainer = styled(({ ...props }) => (
   flex-direction: row;
   max-width: 100%;
   max-height: 100%;
-  margin-left: auto%;
+  margin-left: 25%;
   margin-top: 3%;
   @media screen and (max-width: 1023px) {
     flex-direction: column;
+    margin-left: 20%;
   }
   @media screen and (max-width: 650px) {
-    margin-left: 25%;
+    margin-left: 15%;
   }
 `;
 
@@ -92,8 +89,10 @@ export const StyledCardContainer = styled(({ ...props }) => <div {...props} />)`
   margin-left: 1%;
   margin-top: 0;
   @media screen and (max-width: 1023px) {
+    margin-right: 50%;
   }
   @media screen and (max-width: 650px) {
-    width: 65%;
+    min-width: 65%;
+    margin-right: 60%;
   }
 `;
