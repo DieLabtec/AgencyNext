@@ -54,10 +54,6 @@ export const StyledImageContainer = styled(({ ...props }) => (
   height: 592px;
   min-width: 352px;
   min-height: 592px;
-  @media screen and (max-width: 1023) {
-  }
-  @media screen and (max-width: 650px) {
-  }
 `;
 
 export const StyledContainerContainer = styled(({ ...props }) => (
@@ -89,8 +85,7 @@ export const StyledCardContainer = styled(({ ...props }) => <div {...props} />)`
   margin-left: 1%;
   margin-top: 0;
   @media screen and (max-width: 1023px) {
-    margin-right: 50%;
-    margin-left: 10%;
+    margin-left: 20%;
   }
   @media screen and (max-width: 650px) {
     width: 65%;
