@@ -49,12 +49,12 @@ export const StyledDescription = styled((props) => (
 export const StyledImageContainer = styled(({ ...props }) => (
   <div {...props} />
 ))`
+  width: 352px;
+  height: 592px;
   min-width: 352px;
   min-height: 592px;
-  width: 352;
-  heights: 592;
   @media screen and (max-width: 1023) {
-    margin-left: 15%;
+    margin-right: 15px;
   }
   @media screen and (max-width: 650px) {
     margin-right: 10px;
@@ -72,10 +72,10 @@ export const StyledContainerContainer = styled(({ ...props }) => (
   margin-top: 3%;
   @media screen and (max-width: 1023px) {
     flex-direction: column;
-    margin-left: 0%;
+    margin-left: 27%;
   }
   @media screen and (max-width: 650px) {
-    margin-left: 0%;
+    margin-left: 25%;
   }
 `;
 
@@ -92,7 +92,7 @@ export const StyledCardContainer = styled(({ ...props }) => <div {...props} />)`
     margin-right: 50%;
   }
   @media screen and (max-width: 650px) {
-    min-width: 65%;
-    margin-right: 60%;
+    width: 65%;
+    margin-right: 70%;
   }
 `;
