@@ -63,7 +63,6 @@ export const StyledImageContainer = styled(({ ...props }) => (
     margin-right: 15px;
   }
   @media screen and (max-width: 650px) {
-    margin-right: 30%;
   }
 `;
 
@@ -81,7 +80,7 @@ export const StyledContainerContainer = styled(({ ...props }) => (
     margin-left: 27%;
   }
   @media screen and (max-width: 650px) {
-    margin-left: 39%;
+    margin-left: 25%;
   }
 `;
 
