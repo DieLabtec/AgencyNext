@@ -66,6 +66,7 @@ export const StyledContainerContainer = styled(({ ...props }) => (
   margin-top: 3%;
   @media screen and (max-width: 1023px) {
     flex-direction: column;
+    justify-content: center;
     margin-left: 47%;
   }
   @media screen and (max-width: 650px) {
