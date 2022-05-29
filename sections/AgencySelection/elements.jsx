@@ -20,6 +20,7 @@ export const StyledContainer = styled(({ height, ...props }) => (
   background-repeat: no-repeat;
   @media screen and (max-width: 1023px) {
     background-position: 20% 30%;
+    margin-left: 40%;
   }
 `;
 
@@ -93,6 +94,5 @@ export const StyledCardContainer = styled(({ ...props }) => <div {...props} />)`
   }
   @media screen and (max-width: 650px) {
     width: 65%;
-    margin-right: 70%;
   }
 `;
