@@ -19,8 +19,9 @@ export const StyledContainer = styled(({ height, ...props }) => (
   background-size: 1000px, 1000px;
   background-repeat: no-repeat;
   align-items: center;
-  @media screen and (max-width: 1023px) {
-    background-position: 20% 30%;
+
+  @media screen and (max-width: 480px) {
+    margin-left: 20%;
   }
 `;
 
@@ -62,8 +63,6 @@ export const StyledContainerContainer = styled(({ ...props }) => (
   display: flex;
   max-width: 100%;
   max-height: 100%;
-  =
-
   margin-top: 3%;
   @media screen and (min-width: 1024px) {
     flex-direction: row;
