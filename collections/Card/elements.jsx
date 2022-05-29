@@ -11,10 +11,13 @@ export const StyledContainer = styled(({ height, ...props }) => (
   <SectionContainer {...props} />
 ))`
   background-color: #f9f9f9;
-  width: 20vw;
-  height: 15vh;
-  margin-left: 0;
+  width: 500px;
+  height: 150px;
+  margin-left: 22%;
   margin-right: 0;
+  padding: 0 0.5rem;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const StyledSectionTinyHeading = styled((props) => (
@@ -46,4 +49,5 @@ export const StyledImageContainer = styled(({ ...props }) => (
 ))`
   width: 10vh;
   height: 20vh;
+  margin-top: 15%;
 `;

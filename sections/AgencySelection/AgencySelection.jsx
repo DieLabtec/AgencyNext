@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Card } from "../../collections/Card/Card";
+import Styles from "../../styles/Home.module.css";
 
 import {
   StyledContainer,
@@ -13,10 +14,11 @@ import {
 } from "./elements";
 
 const card1Props = {
-  title: "Managed agency selection",
-  description: "Strenghten your onboarding process",
+  title: "Brief",
+  description:
+    "Compleate brief writing or simple guidance on what to include, we've got you covered.",
   image: {
-    src: "/img/shortername.jpg",
+    src: "/img/background.png",
     alt: "",
     width: 1000,
     height: 1680,
@@ -41,9 +43,9 @@ export const AgencySelection = ({ image, title, description, ...props }) => {
           />
         </StyledImageContainer>
         <StyledCardContainer>
-          <Card {...card1Props}></Card>
-          <Card {...card1Props}></Card>
-          <Card {...card1Props}></Card>
+          <Card {...card1Props} className={Styles.card}></Card>
+          <Card {...card1Props} className={Styles.card}></Card>
+          <Card {...card1Props} className={Styles.card}></Card>
         </StyledCardContainer>
       </StyledContainerContainer>
     </StyledContainer>

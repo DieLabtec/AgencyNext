@@ -4,9 +4,8 @@ export const StyledCardContainer = styled(
   ({ topMargin = 0, bottomMargin = 0, ...props }) => <div {...props} />
 )`
   display: flex;
-  max-width: 1920px;
   width: 10%;
-  height: auto;
+  height: 35%;
   margin-left: auto;
   margin-right: auto;
   margin-top: ${({ topMargin }) => topMargin}rem;

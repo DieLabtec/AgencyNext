@@ -5,6 +5,8 @@ import {
   StyledContainer,
   StyledSectionTinyHeading,
   StyledImageContainer,
+  StyledSectionHeading,
+  StyledSectionInnerHeading,
 } from "./elements";
 
 import Image from "next/image";

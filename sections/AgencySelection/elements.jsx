@@ -1,5 +1,6 @@
 import styled from "styled-components";
 // import img from "./resources/background.png";
+
 import {
   Button,
   SectionContainer,
@@ -17,6 +18,9 @@ export const StyledContainer = styled(({ height, ...props }) => (
   background-position: 25% 80%;
   background-size: 1000px, 1000px;
   background-repeat: no-repeat;
+  @media screen and (max-width: 1023px) {
+    background-position: 20% 30%;
+  }
 `;
 
 export const StyledTitle = styled((props) => <SectionBigHeading {...props} />)`
@@ -31,6 +35,7 @@ export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
   color: black;
   width: 100%;
   font-family: sans-serif;
+  text-align: center;
 `;
 
 export const StyledDescription = styled((props) => (
@@ -44,10 +49,13 @@ export const StyledDescription = styled((props) => (
 export const StyledImageContainer = styled(({ ...props }) => (
   <div {...props} />
 ))`
-  max-width: 22.03rem;
-  max-height: 50rem;
-  width: 100%;
-  height: 100%;
+  width: 352px;
+  height: 592px;
+  min-width: 352px;
+  min-height: 592px;
+  @media screen and (max-width: 1023) {
+    margin-right: 15px;
+  }
 `;
 
 export const StyledContainerContainer = styled(({ ...props }) => (
@@ -57,19 +65,24 @@ export const StyledContainerContainer = styled(({ ...props }) => (
   flex-direction: row;
   max-width: 100%;
   max-height: 100%;
-  margin-left: 30rem;
-  margin-top: 3rem;
+  margin-left: 25%;
+  margin-top: 3%;
+  @media screen and (max-width: 1023px) {
+    flex-direction: column;
+    margin-left: 27%;
+  }
 `;
 
 export const StyledCardContainer = styled(({ ...props }) => <div {...props} />)`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
   max-height: 100%;
-  margin-left: 0;
+  margin-left: 1%;
   margin-top: 0;
-  background-image: url(${backgroundimg.src});
-  background-position: 25% 80%;
-  background-size: 1000px, 1000px;
-  background-repeat: no-repeat;
+  @media screen and (max-width: 1023px) {
+    margin-right: 50%;
+  }
 `;
