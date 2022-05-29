@@ -72,10 +72,10 @@ export const StyledContainerContainer = styled(({ ...props }) => (
   margin-top: 3%;
   @media screen and (max-width: 1023px) {
     flex-direction: column;
-    margin-left: 20%;
+    margin-left: 0%;
   }
   @media screen and (max-width: 650px) {
-    margin-left: 15%;
+    margin-left: 0%;
   }
 `;
 
