@@ -66,7 +66,7 @@ export const StyledContainerContainer = styled(({ ...props }) => (
   margin-top: 3%;
   @media screen and (max-width: 1023px) {
     flex-direction: column;
-    margin-left: 27%;
+    margin-left: 47%;
   }
   @media screen and (max-width: 650px) {
     margin-left: 25%;
@@ -84,7 +84,6 @@ export const StyledCardContainer = styled(({ ...props }) => <div {...props} />)`
   margin-left: 1%;
   margin-top: 0;
   @media screen and (max-width: 1023px) {
-    margin-right: 50%;
     margin-left: 10%;
   }
   @media screen and (max-width: 650px) {
