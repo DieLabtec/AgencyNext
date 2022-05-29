@@ -63,7 +63,7 @@ export const StyledImageContainer = styled(({ ...props }) => (
     margin-right: 15px;
   }
   @media screen and (max-width: 650px) {
-    margin-right: 10%;
+    margin-right: 30%;
   }
 `;
 
