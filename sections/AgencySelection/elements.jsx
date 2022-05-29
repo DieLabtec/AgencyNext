@@ -59,19 +59,18 @@ export const StyledContainerContainer = styled(({ ...props }) => (
   <div {...props} />
 ))`
   display: flex;
-  flex-direction: row;
   max-width: 100%;
   max-height: 100%;
-  margin-left: 25%;
+
   margin-top: 3%;
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20%;
+  }
   @media screen and (max-width: 1023px) {
     flex-direction: column;
-    justify-content: center;
-    margin-left: 47%;
-  }
-  @media screen and (max-width: 650px) {
-    margin-left: 25%;
-    flex-direction: column;
+    align-items: center;
   }
 `;
 
@@ -82,12 +81,5 @@ export const StyledCardContainer = styled(({ ...props }) => <div {...props} />)`
   align-items: center;
   max-width: 100%;
   max-height: 100%;
-  margin-left: 1%;
   margin-top: 0;
-  @media screen and (max-width: 1023px) {
-    margin-left: 10%;
-  }
-  @media screen and (max-width: 650px) {
-    width: 65%;
-  }
 `;
