@@ -20,7 +20,7 @@ export const StyledContainer = styled(({ height, ...props }) => (
   background-repeat: no-repeat;
   @media screen and (max-width: 1023px) {
     background-position: 20% 30%;
-    margin-left: 40%;
+    margin-left: 20%;
   }
 `;
 
