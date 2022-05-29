@@ -75,7 +75,7 @@ export const StyledContainerContainer = styled(({ ...props }) => (
     margin-left: 27%;
   }
   @media screen and (max-width: 650px) {
-    margin-left: 25%;
+    margin-left: 15%;
   }
 `;
 
