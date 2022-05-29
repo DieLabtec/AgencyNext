@@ -21,7 +21,7 @@ export const StyledContainer = styled(({ height, ...props }) => (
   align-items: center;
 
   @media screen and (max-width: 480px) {
-    margin-left: 20%;
+    margin-left: 16%;
   }
 `;
 
