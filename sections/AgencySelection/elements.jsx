@@ -55,10 +55,8 @@ export const StyledImageContainer = styled(({ ...props }) => (
   min-width: 352px;
   min-height: 592px;
   @media screen and (max-width: 1023) {
-    margin-right: 15px;
   }
   @media screen and (max-width: 650px) {
-    margin-right: 10px;
   }
 `;
 
@@ -77,6 +75,7 @@ export const StyledContainerContainer = styled(({ ...props }) => (
   }
   @media screen and (max-width: 650px) {
     margin-left: 25%;
+    flex-direction: column;
   }
 `;
 
